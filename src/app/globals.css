@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+    body{
+        color:white;
+        background-color: navy;
+    }
+
+}
+@layer componets{
+    .menuLink{
+        @apply cursor-pointer hover:text-[#dac5da55]
+    }
+}
