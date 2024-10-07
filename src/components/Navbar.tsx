@@ -3,7 +3,7 @@ import React from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
 function Navbar() {
   return (
-    <div className='container pt-8'>
+    <div className='container pt-8  rounded-xs '>
         <div className='flex justify-between items-center'>
             <div className='text-xl font-medium'>Alisha Kayani</div>
             <ul className='gap-10 lg:gap-16 hidden md:flex'>

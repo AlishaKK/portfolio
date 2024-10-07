@@ -5,12 +5,12 @@
 @layer base{
     body{
         color:white;
-        background-color: navy;
+        background-color: rgb(1, 1, 6);
     }
 
 }
 @layer componets{
     .menuLink{
-        @apply cursor-pointer hover:text-[#542b5455]
+        @apply cursor-pointer hover:text-[#c5c5c5]
     }
 }
