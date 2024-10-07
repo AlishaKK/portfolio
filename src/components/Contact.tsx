@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react';
-
+import { MdMessage } from "react-icons/md";
 function ContactMe() {
     const [formData, setFormData] = useState({
         name: '',
@@ -86,7 +86,7 @@ function ContactMe() {
                     type="submit"
                     className="w-full bg-blue-600 text-white font-semibold py-2 rounded hover:bg-blue-700 transition duration-200"
                 >
-                    Send Message
+                    Send Message 
                 </button>
             </form>
         </div>

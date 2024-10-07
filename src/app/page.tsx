@@ -1,3 +1,4 @@
+import About from '@/components/About';
 import ContactMe from '@/components/Contact';
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
@@ -21,6 +22,9 @@ export default function Home() {
 
       <section className="container mx-auto p-5 mt-10 bg-black text-white shadow-lg rounded-lg">
         <ContactMe />
+      </section>
+      <section className="container mx-auto p-5 mt-10 bg-black text-white shadow-lg rounded-lg">
+        <About />
       </section>
     </main>
   );
