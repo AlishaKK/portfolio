@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 export default function Hero() {
   return (
-    <div id="hero" className='min-h-screen bg-no-repeat p-4 bg-[url(/Alisha.jpg)] bg-left lg:bg[15%] bg-cover rounded-xl'
+    <div id="hero" className='min-h-screen bg-no-repeat p-4 bg-[url(/Alisha.jpg)] bg-left  bg-cover rounded-xl'
     style={{backgroundSize: "25%"}}
     ><Navbar/>
     <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>

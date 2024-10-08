@@ -21,10 +21,10 @@ const About = () => {
             <h3 className="text-2xl font-semibold mb-2">Get in Touch</h3>
             <p>
                 You can find me on:
-                <a href="https://github.com/yourusername" className="text-blue-400 underline ml-1">GitHub</a>,
-                <a href="https://linkedin.com/in/yourusername" className="text-blue-400 underline ml-1">LinkedIn</a>,
+                <a href="https://github.com/AlishaKK" className="text-blue-400 underline ml-1">GitHub</a>,
+                <a href="https://www.linkedin.com/in/alisha-kayani-a30889202/" className="text-blue-400 underline ml-1">LinkedIn</a>,
                 or reach out via email: 
-                <a href="mailto:your-email@example.com" className="text-blue-400 underline ml-1">your-email@example.com</a>.
+                <a href="mem29423@gmail.com" className="text-blue-400 underline ml-1">mem29423@gmail.com</a>.
             </p>
         </section>
     );

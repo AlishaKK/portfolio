@@ -60,10 +60,12 @@ function ProjectCard({ project }) {
             <div className="p-4">
                 <h2 className="text-xl font-semibold">{project.title}</h2>
                 <p className="text-gray-600">{project.description}</p>
+                
                 <Link href={project.link} passHref>
                     <span className="text-blue-500 hover:underline cursor-pointer">View Project</span>
                 </Link>
             </div>
+            
             <div className="p-4">
                 <Image
                     src={project.images[currentImageIndex]}
@@ -73,6 +75,16 @@ function ProjectCard({ project }) {
                     className="object-cover"
                 />
             </div>
+            <div className="mt-2 mb-2">
+                    <h3 className="text-gray-700 font-medium">Tags:</h3>
+                    <div className="flex flex-wrap">
+                        {project.tags.map(tag => (
+                            <span key={tag} className="bg-blue-200 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+                </div>
         </div>
     );
 }

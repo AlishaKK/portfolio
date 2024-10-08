@@ -13,12 +13,34 @@
     .menuLink{
         @apply cursor-pointer hover:text-[#c5c5c5]
     }
-}
-.fade {
-    opacity: 0;
-    transition: opacity 0.5s;
-}
+    .tags {
+        background-color: #0f2c32; /* Default color */
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        padding: 3px 10px;
+        display: inline-block;
+        color: #fff;
+        font-size: 12px;
+    }
 
-.fade.show {
-    opacity: 1;
+    .tags:last-child {
+        margin-right: 0;
+    }
+
+    /* If you want to add colors based on the index, use separate classes */
+    .tag-0 {
+        background-color: #0a1b1f;
+    }
+    .tag-1 {
+        background-color: #a55eea;
+    }
+    .tag-2 {
+        background-color: #5eea94;
+    }
+    .tag-3 {
+        background-color: #ce1010;
+    }
+    .tag-4 {
+        background-color: #065018;
+    }
 }
