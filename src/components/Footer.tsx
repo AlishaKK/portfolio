@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
 
                 <p className="text-center">
-                    &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+                    &copy; {new Date().getFullYear()} Alisha Kayani. All rights reserved.
                 </p>
 
                 <nav className="mt-4">
